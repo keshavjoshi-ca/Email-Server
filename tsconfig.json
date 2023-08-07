@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": ["ES2021", "ScriptHost"],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "rootDir": "src",
+    // "strict": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false
+  },
+  "exclude": ["node_modules"]
+}
