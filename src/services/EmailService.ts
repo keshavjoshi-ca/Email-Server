@@ -44,7 +44,6 @@ const sendEmail = ({
   };
 
   return new Promise((resolve, reject) => {
-    // reject("Email Rejected");
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         reject(error);
