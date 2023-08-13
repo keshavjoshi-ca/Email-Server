@@ -11,7 +11,7 @@
     "start": "node dist/server.js",
     "dev": "nodemon",
     "build": "tsc",
-    "heroku-postbuild": "npm run build && npm start"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "keywords": [],
   "author": "",
