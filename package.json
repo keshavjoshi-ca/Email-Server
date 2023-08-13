@@ -8,8 +8,9 @@
     "npm": "8.19.2"
   },
   "scripts": {
-    "start": "ts-node src/server.ts",
+    "start": "node dist/server.js",
     "dev": "nodemon",
+    "build": "tsc",
     "heroku-postbuild": "npm install && npm start"
   },
   "keywords": [],
